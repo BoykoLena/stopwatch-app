@@ -1,0 +1,36 @@
+h1,
+h2 {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(228, 118, 0) 0%,
+    rgb(247, 189, 2) 90%
+  );
+  padding: 10px 20px 30px 20px;
+  border-radius: 4px;
+}
+
+.msc {
+  font-size: 16px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0 10px;
+  padding: 15px 30px;
+  color: white;
+  background: inherit;
+  border: 1px solid white;
+  border-radius: 4px;
+}
